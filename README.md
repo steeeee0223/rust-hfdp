@@ -6,4 +6,5 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
 
 ### Behaviorial Patterns
 
-[ ] Strategy Patterns (cf. `HFDP Ch1`) 1. Stategy 1 2. Stategy 2 - An enhanced version of previous one
+-   [x] Strategy Patterns (cf. `HFDP Ch1`)
+-   [x] Observer Patterns (cf. `HFDP Ch2`)
