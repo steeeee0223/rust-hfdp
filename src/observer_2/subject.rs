@@ -19,14 +19,13 @@ impl WeatherData {
         self.observers.push(observer);
     }
 
-    pub fn remove_observer(&mut self, _observer: Rc<RefCell<dyn Observer>>) {
-        todo!()
-        // self.observers.remove(
-        //     self.observers
-        //         .iter()
-        //         .position(|x| x.get_id() == observer.borrow().get_id())
-        //         .expect("observer not found"),
-        // );
+    pub fn remove_observer(&mut self, observer: Rc<RefCell<dyn Observer>>) {
+        self.observers.remove(
+            self.observers
+                .iter()
+                .position(|x| x.borrow().get_id() == observer.borrow().get_id())
+                .expect("observer not found"),
+        );
     }
 
     pub fn notify(&self) {
