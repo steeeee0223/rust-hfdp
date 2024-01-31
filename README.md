@@ -12,3 +12,9 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
 ### Structural Patterns
 
 -   [x] Decorator Patterns (cf. `HFDP Ch3`)
+
+### Creational Patterns
+
+-   [x] Singleton Patterns (cf. `HFDP Ch5`)
+    -   Singleton 1: Chocolate boiler
+    -   Singleton 2: Singleton as generic macro
