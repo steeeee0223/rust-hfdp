@@ -15,6 +15,10 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
 
 ### Creational Patterns
 
+-   [x] Factory Patterns (cf. `HFDP Ch4`)
+    -   Factory 1: Simple Factory
+    -   Factory 2: Factory Pattern
+    -   Factory 3: Abstract Factory
 -   [x] Singleton Patterns (cf. `HFDP Ch5`)
     -   Singleton 1: Chocolate boiler
     -   Singleton 2: Singleton as generic macro

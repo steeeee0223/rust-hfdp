@@ -1,4 +1,7 @@
 pub mod decorator;
+pub mod factory_1;
+pub mod factory_2;
+pub mod factory_3;
 pub mod observer_1;
 pub mod observer_1x;
 pub mod observer_2;
