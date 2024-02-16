@@ -1,3 +1,7 @@
+pub mod command_1;
+pub mod command_2;
+pub mod command_3;
+pub mod command_4;
 pub mod decorator;
 pub mod factory_1;
 pub mod factory_2;

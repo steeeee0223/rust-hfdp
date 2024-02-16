@@ -8,6 +8,11 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
 
 -   [x] Strategy Patterns (cf. `HFDP Ch1`)
 -   [x] Observer Patterns (cf. `HFDP Ch2`)
+-   [x] Command Patterns (cf. `HFDP Ch6`)
+    -   Command 1: Simple Remote Control
+    -   Command 2: Remote Control (with slots of commands & undo)
+    -   Command 3: Remote Control (with undo)
+    -   Command 4: Macro Command - Party Mode Remote Control
 
 ### Structural Patterns
 
