@@ -14,3 +14,5 @@ pub mod singleton_1;
 pub mod singleton_2;
 pub mod strategy_1;
 pub mod strategy_2;
+pub mod template_1;
+pub mod template_2;

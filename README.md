@@ -13,6 +13,9 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
     -   Command 2: Remote Control (with slots of commands & undo)
     -   Command 3: Remote Control (with undo)
     -   Command 4: Macro Command - Party Mode Remote Control
+-   [x] Template Method Patterns (cf. `HFDP Ch 7`)
+    -   Template 1: Beverages (with hook)
+    -   Template 2: Sorting Ducks (implementing built-in traits)
 
 ### Structural Patterns
 
