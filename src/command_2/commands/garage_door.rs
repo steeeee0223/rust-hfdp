@@ -24,11 +24,8 @@ impl Command for GarageDoorOpenCommand {
     fn name(&self) -> String {
         String::from("Garage Door Open")
     }
-    fn execute(&mut self) {
+    fn execute(&self) {
         self.garage_door.borrow().up();
-    }
-    fn undo(&mut self) {
-        self.garage_door.borrow().down();
     }
 }
 
@@ -44,10 +41,7 @@ impl Command for GarageDoorCloseCommand {
     fn name(&self) -> String {
         String::from("Garage Door Close")
     }
-    fn execute(&mut self) {
+    fn execute(&self) {
         self.garage_door.borrow().down();
-    }
-    fn undo(&mut self) {
-        self.garage_door.borrow().up();
     }
 }

@@ -10,8 +10,7 @@ pub use stereo::*;
 
 pub trait Command {
     fn name(&self) -> String;
-    fn execute(&mut self);
-    fn undo(&mut self);
+    fn execute(&self);
 }
 
 pub struct NoCommand;
@@ -19,6 +18,5 @@ impl Command for NoCommand {
     fn name(&self) -> String {
         String::from("No command")
     }
-    fn execute(&mut self) {}
-    fn undo(&mut self) {}
+    fn execute(&self) {}
 }

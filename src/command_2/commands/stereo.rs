@@ -43,13 +43,10 @@ impl Command for StereoOnWithCDCommand {
     fn name(&self) -> String {
         format!("{} Stereo On with CD", self.stereo.borrow().location)
     }
-    fn execute(&mut self) {
+    fn execute(&self) {
         self.stereo.borrow().on();
         self.stereo.borrow().set_cd();
         self.stereo.borrow().set_volume(11);
-    }
-    fn undo(&mut self) {
-        self.stereo.borrow().off();
     }
 }
 
@@ -65,12 +62,7 @@ impl Command for StereoOffCommand {
     fn name(&self) -> String {
         format!("{} Stereo Off", self.stereo.borrow().location)
     }
-    fn execute(&mut self) {
+    fn execute(&self) {
         self.stereo.borrow().off();
-    }
-    fn undo(&mut self) {
-        self.stereo.borrow().on();
-        self.stereo.borrow().set_cd();
-        self.stereo.borrow().set_volume(11);
     }
 }

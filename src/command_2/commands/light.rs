@@ -31,11 +31,8 @@ impl Command for LightOnCommand {
     fn name(&self) -> String {
         format!("{} Light On", self.light.borrow().location)
     }
-    fn execute(&mut self) {
+    fn execute(&self) {
         self.light.borrow().on();
-    }
-    fn undo(&mut self) {
-        self.light.borrow().off();
     }
 }
 
@@ -51,10 +48,7 @@ impl Command for LightOffCommand {
     fn name(&self) -> String {
         format!("{} Light Off", self.light.borrow().location)
     }
-    fn execute(&mut self) {
+    fn execute(&self) {
         self.light.borrow().off();
-    }
-    fn undo(&mut self) {
-        self.light.borrow().on();
     }
 }

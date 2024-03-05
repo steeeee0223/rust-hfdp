@@ -58,46 +58,26 @@ impl Command for CeilingFanOnCommand {
     fn name(&self) -> String {
         format!("{} Ceiling Fan On", self.ceiling_fan.borrow().location)
     }
-    fn execute(&mut self) {
+    fn execute(&self) {
         self.ceiling_fan.borrow_mut().high();
-        self.ceiling_fan.borrow().speed();
-    }
-    fn undo(&mut self) {
-        self.ceiling_fan.borrow_mut().off();
         self.ceiling_fan.borrow().speed();
     }
 }
 
 pub struct CeilingFanOffCommand {
     ceiling_fan: Rc<RefCell<CeilingFan>>,
-    history: u8,
 }
 impl CeilingFanOffCommand {
     pub fn new(ceiling_fan: Rc<RefCell<CeilingFan>>) -> Self {
-        let speed = ceiling_fan.borrow().speed();
-        CeilingFanOffCommand {
-            ceiling_fan,
-            history: speed,
-        }
+        CeilingFanOffCommand { ceiling_fan }
     }
 }
 impl Command for CeilingFanOffCommand {
     fn name(&self) -> String {
         format!("{} Ceiling Fan Off", self.ceiling_fan.borrow().location)
     }
-    fn execute(&mut self) {
-        self.history = self.ceiling_fan.borrow().speed();
+    fn execute(&self) {
         self.ceiling_fan.borrow_mut().off();
-        self.ceiling_fan.borrow().speed();
-    }
-    fn undo(&mut self) {
-        match self.history {
-            3 => self.ceiling_fan.borrow_mut().high(),
-            2 => self.ceiling_fan.borrow_mut().medium(),
-            1 => self.ceiling_fan.borrow_mut().low(),
-            0 => self.ceiling_fan.borrow_mut().off(),
-            other => panic!("Error speed: {}", other),
-        }
         self.ceiling_fan.borrow().speed();
     }
 }
