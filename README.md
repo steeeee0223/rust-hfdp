@@ -16,6 +16,9 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
 -   [x] Template Method Patterns (cf. `HFDP Ch 7`)
     -   Template 1: Beverages (with hook)
     -   Template 2: Sorting Ducks (implementing built-in traits)
+-   [x] State Patterns (cf. `HFDP Ch 10`)
+    -   State 1: Original Gumball Machine
+    -   State 1: Gumball Machine (with random winning state)
 
 ### Structural Patterns
 
