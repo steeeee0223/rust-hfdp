@@ -18,7 +18,11 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
     -   Template 2: Sorting Ducks (implementing built-in traits)
 -   [x] State Patterns (cf. `HFDP Ch 10`)
     -   State 1: Original Gumball Machine
-    -   State 1: Gumball Machine (with random winning state)
+    -   State 2: Gumball Machine (with random winning state)
+        -   This solution refers to [Rust Lang Book §17.3](https://doc.rust-lang.org/book/ch17-03-oo-design-patterns.html)
+    -   State 3: Password manager (in compile time solution)
+        -   This solution refers to [YouTube](https://www.youtube.com/watch?v=_ccDqRTx-JU)
+        -   This solution is unappliable to Gumball Machine
 
 ### Structural Patterns
 
