@@ -1,5 +1,5 @@
-use rust_hfdp::strategy_2::behaviors::{FlyWithWings, MuteQuack, Quack};
-use rust_hfdp::strategy_2::ducks::{Duck, MallardDuck};
+use rust_hfdp::strategy::v2::behaviors::{FlyWithWings, MuteQuack, Quack};
+use rust_hfdp::strategy::v2::ducks::{Duck, MallardDuck};
 
 fn main() {
     let duck = MallardDuck;

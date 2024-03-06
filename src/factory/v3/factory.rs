@@ -1,10 +1,7 @@
-use crate::factory_3::ingredients::{
-    BlackOlives, Eggplant, Garlic, Mushroom, Onion, RedPepper, Spinach,
-};
-
 use super::ingredients::{
-    Cheese, Clams, Dough, FreshClams, FrozenClams, MarinaraSauce, MozzarellaCheese, Pepperoni,
-    PlumTomatoSauce, ReggianoCheese, Sauce, SlicedPepperoni, ThinCrustDough, Veggies,
+    BlackOlives, Cheese, Clams, Dough, Eggplant, FreshClams, FrozenClams, Garlic, MarinaraSauce,
+    MozzarellaCheese, Mushroom, Onion, Pepperoni, PlumTomatoSauce, RedPepper, ReggianoCheese,
+    Sauce, SlicedPepperoni, Spinach, ThinCrustDough, Veggies,
 };
 
 pub trait PizzaIngredientFactory {

@@ -1,4 +1,4 @@
-use rust_hfdp::factory_3::{CHPizzaStore, NYPizzaStore, PizzaStore};
+use rust_hfdp::factory::v3::{CHPizzaStore, NYPizzaStore, PizzaStore};
 
 fn main() {
     let ny_store = NYPizzaStore;

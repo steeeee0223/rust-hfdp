@@ -1,4 +1,4 @@
-use rust_hfdp::template_1::{Beverage, BeverageWithHook as _, CoffeeWithHook, Tea};
+use rust_hfdp::template::v1::{Beverage, BeverageWithHook as _, CoffeeWithHook, Tea};
 
 fn main() {
     println!("Making tea...");

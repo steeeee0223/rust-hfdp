@@ -1,4 +1,4 @@
-use rust_hfdp::command_1::{
+use rust_hfdp::command::v1::{
     GarageDoor, GarageDoorOpenCommand, Light, LightOnCommand, SimpleRemoteControl,
 };
 

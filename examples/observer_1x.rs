@@ -1,4 +1,4 @@
-use rust_hfdp::observer_1x::{
+use rust_hfdp::observer::v1x::{
     observers::{CurrentConditionDisplay, PredictDisplay},
     subject::WeatherData,
 };

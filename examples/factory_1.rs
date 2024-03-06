@@ -1,4 +1,4 @@
-use rust_hfdp::factory_1::PizzaStore;
+use rust_hfdp::factory::v1::PizzaStore;
 
 fn main() {
     let store = PizzaStore;

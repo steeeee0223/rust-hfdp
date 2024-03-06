@@ -1,4 +1,4 @@
-use rust_hfdp::decorator::{Beverage, Condiment, Espresso, HouseBlend, Mocha, Whip};
+use rust_hfdp::decorator::v1::{Beverage, Condiment, Espresso, HouseBlend, Mocha, Whip};
 
 fn main() {
     let beverage = Espresso;

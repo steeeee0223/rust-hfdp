@@ -1,4 +1,4 @@
-use rust_hfdp::state_3::PasswordManager;
+use rust_hfdp::state::v0::PasswordManager;
 
 fn main() {
     let manager = PasswordManager::new("pass123".to_owned());

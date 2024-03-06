@@ -1,6 +1,6 @@
 use std::{cell::RefCell, rc::Rc};
 
-use rust_hfdp::command_4::{
+use rust_hfdp::command::v4::{
     CeilingFan, CeilingFanOffCommand, CeilingFanOnCommand, Light, LightOffCommand, LightOnCommand,
     MacroCommand, RemoteControl, Stereo, StereoOffCommand, StereoOnWithCDCommand,
 };

@@ -1,4 +1,4 @@
-use rust_hfdp::singleton_1::{ChocolateBoiler, Status, INIT};
+use rust_hfdp::singleton::v1::{ChocolateBoiler, Status, INIT};
 
 fn main() {
     unsafe {

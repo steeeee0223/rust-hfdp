@@ -1,8 +1,8 @@
 use std::cell::RefCell;
 use std::rc::Rc;
 
-use rust_hfdp::observer_2::observers::{CurrentConditionDisplay, Observer, PredictDisplay};
-use rust_hfdp::observer_2::subject::WeatherData;
+use rust_hfdp::observer::v2::observers::{CurrentConditionDisplay, Observer, PredictDisplay};
+use rust_hfdp::observer::v2::subject::WeatherData;
 
 fn main() {
     let mut weather_data = WeatherData::new();

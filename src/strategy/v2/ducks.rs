@@ -1,4 +1,4 @@
-use crate::strategy_2::behaviors::{FlyBehavior, QuackBehavior};
+use super::behaviors::{FlyBehavior, QuackBehavior};
 
 pub trait Duck {
     fn display(&self);

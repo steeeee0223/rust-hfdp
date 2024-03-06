@@ -1,4 +1,4 @@
-use rust_hfdp::template_2::Duck;
+use rust_hfdp::template::v2::Duck;
 
 fn main() {
     let mut ducks: Vec<Duck> = vec![

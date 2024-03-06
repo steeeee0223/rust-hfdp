@@ -1,6 +1,6 @@
 use std::{cell::RefCell, rc::Rc};
 
-use rust_hfdp::command_3::{Light, LightOffCommand, LightOnCommand, RemoteControl};
+use rust_hfdp::command::v3::{Light, LightOffCommand, LightOnCommand, RemoteControl};
 
 fn main() {
     let mut remote = RemoteControl::new();

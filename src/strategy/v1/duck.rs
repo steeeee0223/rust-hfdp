@@ -1,4 +1,4 @@
-use crate::strategy_1::{FlyBehavior, FlyWithWings, Quack, QuackBehavior};
+use super::{FlyBehavior, FlyWithWings, Quack, QuackBehavior};
 
 pub struct Duck {
     fly_behavior: Box<dyn FlyBehavior>,

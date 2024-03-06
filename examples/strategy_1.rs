@@ -1,4 +1,4 @@
-use rust_hfdp::strategy_1::{Duck, FlyNoWay, MuteQuack};
+use rust_hfdp::strategy::v1::{Duck, FlyNoWay, MuteQuack};
 
 fn main() {
     let mut duck = Duck::new();

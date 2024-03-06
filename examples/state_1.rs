@@ -1,4 +1,4 @@
-use rust_hfdp::state_1::GumballMachine;
+use rust_hfdp::state::v1::GumballMachine;
 
 fn main() {
     let mut gumball_machine = GumballMachine::new(5);

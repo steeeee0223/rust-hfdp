@@ -1,6 +1,6 @@
 use std::rc::Rc;
 
-use rust_hfdp::observer_3::{
+use rust_hfdp::observer::v3::{
     observers::{CurrentConditionDisplay, Observer, PredictDisplay},
     subject::WeatherData,
 };
