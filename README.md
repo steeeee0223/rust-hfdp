@@ -27,6 +27,11 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
 ### Structural Patterns
 
 -   [x] Decorator Patterns (cf. `HFDP Ch3`)
+-   [x] Adapter Patterns (cf. `HFDP Ch7`)
+    -   Adapter 1: Duck & Turkey
+    -   Adapter 2: `TODO` Iterator & Enumeration
+-   [x] Facade Patterns (cf. `HFDP Ch7`)
+    -   Facade 1: Home Theater
 
 ### Creational Patterns
 

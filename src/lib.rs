@@ -1,5 +1,7 @@
+pub mod adapter;
 pub mod command;
 pub mod decorator;
+pub mod facade;
 pub mod factory;
 pub mod observer;
 pub mod singleton;
