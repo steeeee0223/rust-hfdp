@@ -32,6 +32,12 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
     -   Adapter 2: `TODO` Iterator & Enumeration
 -   [x] Facade Patterns (cf. `HFDP Ch7`)
     -   Facade 1: Home Theater
+-   [x] Iterator Patterns (cf. `HFDP Ch9`)
+    -   Iterator 1: Menus (using `IntoIter` trait)
+-   [x] Composite Patterns (cf. `HFDP Ch9`)
+    -   Composite 1: Menus with Sub-Menus
+    -   Composite 2: Menus with Sub-Menus (refactored with `enum`)
+    -   Composite 3: `TODO` Vegetarian Menu (implemented `Iterator`)
 
 ### Creational Patterns
 
@@ -42,3 +48,4 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
 -   [x] Singleton Patterns (cf. `HFDP Ch5`)
     -   Singleton 1: Chocolate boiler
     -   Singleton 2: Singleton as generic macro
+        -   This solution refers to [YouTube](https://www.youtube.com/watch?v=ULn2JbTpWIM)

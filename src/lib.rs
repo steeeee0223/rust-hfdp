@@ -1,8 +1,10 @@
 pub mod adapter;
 pub mod command;
+pub mod composite;
 pub mod decorator;
 pub mod facade;
 pub mod factory;
+pub mod iterator;
 pub mod observer;
 pub mod singleton;
 pub mod state;
