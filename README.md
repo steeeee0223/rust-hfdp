@@ -38,6 +38,7 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
     -   Composite 1: Menus with Sub-Menus
     -   Composite 2: Menus with Sub-Menus (refactored with `enum`)
     -   Composite 3: `TODO` Vegetarian Menu (implemented `Iterator`)
+-   [x] Proxy Patterns (cf. `HFDP Ch11`)
 
 ### Creational Patterns
 

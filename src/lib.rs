@@ -6,6 +6,7 @@ pub mod facade;
 pub mod factory;
 pub mod iterator;
 pub mod observer;
+pub mod proxy;
 pub mod singleton;
 pub mod state;
 pub mod strategy;
