@@ -23,6 +23,11 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
     -   State 3: Password manager (in compile time solution)
         -   This solution refers to [YouTube](https://www.youtube.com/watch?v=_ccDqRTx-JU)
         -   This solution is unappliable to Gumball Machine
+-   [x] Chain of Responsibility (cf. `HFDP A3`)
+-   [ ] Interpreter Patterns (cf. `HFDP A5`)
+-   [ ] Mediator Patterns (cf. `HFDP A6`)
+-   [ ] Memento Patterns (cf. `HFDP A7`)
+-   [ ] Visitor Patterns (cf. `HFDP A9`)
 
 ### Structural Patterns
 
@@ -39,6 +44,8 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
     -   Composite 2: Menus with Sub-Menus (refactored with `enum`)
     -   Composite 3: `TODO` Vegetarian Menu (implemented `Iterator`)
 -   [x] Proxy Patterns (cf. `HFDP Ch11`)
+-   [ ] Bridge Patterns (cf. `HFDP A1`)
+-   [ ] Flyweight Patterns (cf. `HFDP A4`)
 
 ### Creational Patterns
 
@@ -50,3 +57,5 @@ This repo contains a walk through of the book [Head First Design Pattern](https:
     -   Singleton 1: Chocolate boiler
     -   Singleton 2: Singleton as generic macro
         -   This solution refers to [YouTube](https://www.youtube.com/watch?v=ULn2JbTpWIM)
+-   [ ] Builder Patterns (cf. `HFDP A2`)
+-   [ ] Prototype Patterns (cf. `HFDP A8`)
